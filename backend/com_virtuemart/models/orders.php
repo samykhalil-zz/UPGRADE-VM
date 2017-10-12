@@ -1046,7 +1046,7 @@ vmdebug('my prices',$data);
 
 			$inputOrder['comments'] = trim($inputOrder['comments']);
 			/* Update the order history */
-			$this->_updateOrderHist($virtuemart_order_id, $data->order_status, $inputOrder['customer_notified'], $inputOrder['comments']);
+			//$this->_updateOrderHist($virtuemart_order_id, $data->order_status, $inputOrder['customer_notified'], $inputOrder['comments']);
 
 			//We need a new invoice, therefore rename the old one.
 			$inv_os = VmConfig::get('inv_os',array('C'));
