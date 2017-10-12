@@ -1,0 +1,410 @@
+@media print {
+div.trilly-print-page{
+background-color: white;
+margin: 0px ;
+padding: 0px;
+float:none;
+width:100%;
+height: auto;
+clear: both;
+text-align:left;
+font-weight:300;
+page-break-after: always;
+top:0px;
+left:0px;
+right:0px;
+position:absolute;
+}
+span.vmpayment_description
+{
+display:none;
+}
+div.black-menu,footer.footer
+{
+display:none !important;
+}
+body
+{
+background:#fff !important;
+}
+div.page-inset
+{
+width: 100%;
+padding: 0px 0px 0px 0px;
+min-height: 650px;
+}
+div.print-header
+{
+width:100%;
+height:auto;
+padding:0;
+margin: 0 0 30px 0;
+float:left;
+}
+div.print-header-left
+{
+width:50%;
+height:auto;
+padding:0;
+margin:0;
+float:left;
+}
+div.trilly-logo img
+{
+width:190px;
+height:auto;
+}
+div.print-header-right
+{
+width:50%;
+height:auto;
+padding:0;
+margin:0;
+float:right;
+}
+span.header-topic, span.header-data, span.details-left-col, span.details-right-col
+{
+width:50%;
+height:auto;
+padding:0;
+margin:0;
+float:left;
+}
+div.print-details
+{
+width:100%;
+height:auto;
+padding:0;
+margin: 0 0 30px 0;
+float:left;
+}
+div.print-details-left
+{
+width:50%;
+height:auto;
+padding:0;
+margin:0;
+float:left;
+}
+div.print-details-right
+{
+width:50%;
+height:auto;
+padding:0;
+margin:0;
+float:right;
+}
+div.print-details-right span.shipping-left-col
+{
+width:50%;
+display:inline-block;
+margin:0;
+padding:0;
+margin-right:50%;
+}
+div.order-items-table
+{
+width:100%;
+display:inline-block;
+margin:0;
+padding:0;
+border-bottom:solid 1px #333;
+margin-bottom:20px;
+}
+table.work-order-items
+{
+width:100%;
+border-collapse:collapse;
+text-align:left;
+margin-bottom:20px;
+}
+tr.work-order-table-header
+{
+background:#333;
+}
+table.work-order-items th
+{
+color:#fff;
+font-weight:300;
+padding:8px 0;
+width:16.666;
+background:#333;
+}
+table.work-order-items th.image-column
+{
+padding-left:10px;
+}
+table.work-order-items th.description-column, table.work-order-items td.description-column
+{
+width:50%;
+}
+table.work-order-items td
+{
+padding:8px;
+width:16.666;
+}
+table.work-order-items td.image-column
+{
+padding:8px 0;
+}
+table.work-order-items td.image-column img
+{
+width:80%;
+height:auto;
+}
+div.work-order-footer
+{
+width:100%;
+display:inline-block;
+float:left;
+margin:0;padding:0;
+}
+div.work-order-footer-left
+{
+width:50%;
+display:inline-block;
+float:left;
+margin:0;padding:0;
+}
+div.work-order-footer-left img
+{
+width:80%;
+height:auto;
+}
+div.work-order-footer-right
+{
+width:50%;
+display:inline-block;
+float:left;
+margin:0;
+padding:0;
+}
+div.ad-copy-wrapper p
+{
+margin-bottom:4px !important;
+margin-top:0px !important;
+padding:0px !important;
+line-height:20px !important;
+}
+h1
+{
+font-weight: 300 !important;
+margin: 30px 0 0 !important;
+padding: 0 !important;
+font-size: 28px !important;
+text-transform: uppercase !important;
+letter-spacing: 1.5px !important;
+text-align:left !important;
+}
+h6
+{
+font-weight: 600 !important;
+letter-spacing:2.5px !important;
+text-transform: uppercase !important;
+font-size: 16px !important;
+margin: 0 0 10px !important;
+padding: 0 !important;
+}
+span, p, td, th
+{
+font-size:16px !important;
+}
+	
+	}
+	
+div.black-menu
+{
+display:none !important;
+}
+div.page-inset
+{
+padding: 60px 46px 64px !important;
+min-height: 650px;
+}
+div.trilly-print-page
+{
+margin: 0px auto;
+padding: 0px;
+float:none;
+width: 720px;
+height: auto;
+clear: both;
+page-break-after: always;
+text-align:left;
+font-weight:300;
+}
+div.print-header
+{
+width:100%;
+height:auto;
+padding:0;
+margin: 0 0 10px 0;
+float:left;
+}
+div.print-header-left
+{
+width:50%;
+height:auto;
+padding:0;
+margin:0;
+float:left;
+}
+div.trilly-logo img
+{
+width:190px;
+height:auto;
+}
+div.print-header-right
+{
+width:50%;
+height:auto;
+padding:0;
+margin:0;
+float:right;
+}
+span.header-topic, span.header-data, span.details-left-col, span.details-right-col
+{
+width:48%;
+height:auto;
+padding:0 2% 0 0;
+margin:0;
+float:left;
+word-break:break-word;
+}
+div.print-details
+{
+width:100%;
+height:auto;
+padding:0;
+margin: 0 0 10px 0;
+float:left;
+}
+div.print-details-left
+{
+width:66.66%;
+height:auto;
+padding:0;
+margin:0;
+float:left;
+}
+div.print-details-right
+{
+width:33.33%;
+height:auto;
+padding:0;
+margin:0;
+float:right;
+}
+div.print-details-right span.shipping-left-col
+{
+width:100%;
+display:inline-block;
+margin:0;
+padding:0;
+margin-right:0%;
+}
+div.order-items-table
+{
+width:100%;
+display:inline-block;
+margin:0;
+padding:0;
+border-bottom:solid 1px #333;
+margin-bottom:20px;
+}
+table.work-order-items
+{
+width:100%;
+border-collapse:collapse;
+text-align:left;
+margin-bottom:20px;
+}
+tr.work-order-table-header
+{
+background:#333;
+}
+table.work-order-items th
+{
+color:#fff;
+font-weight:300;
+padding:8px 0;
+width:16.666;
+background:#333;
+}
+table.work-order-items th.image-column
+{
+padding-left:10px;
+}
+table.work-order-items th.description-column, table.work-order-items td.description-column
+{
+width:50%;
+}
+table.work-order-items td
+{
+padding:8px;
+width:16.666;
+}
+table.work-order-items td.image-column
+{
+padding:8px 0;
+}
+table.work-order-items td.image-column img
+{
+width:60%;
+height:auto;
+}
+div.work-order-footer
+{
+width:100%;
+display:inline-block;
+float:left;
+margin:0;padding:0;
+}
+div.work-order-footer-left
+{
+width:50%;
+display:inline-block;
+float:left;
+margin:0;padding:0;
+}
+div.work-order-footer-left img
+{
+width:80%;
+height:auto;
+}
+div.work-order-footer-right
+{
+width:50%;
+display:inline-block;
+float:left;
+margin:0;
+padding:0;
+}
+
+h1
+{
+font-weight: 300;
+margin: 30px 0 0;
+padding: 0;
+font-size: 28px;
+text-transform: uppercase;
+letter-spacing: 1.5px;
+text-align:left;
+}
+h6
+{
+font-weight: 600;
+letter-spacing:2.5px;
+text-transform: uppercase;
+font-size: 16px;
+margin: 0 0 20px;
+padding: 0;
+}
+span, p, td, th
+{
+font-size:16px
+}
+span.vmpayment_description
+{
+	display:none !important;
+}
